@@ -1,6 +1,6 @@
 # @mixejs/drizzle
 
-> Drizzle adaptar for Mixe
+> Drizzle adapter for Mixe
 
 ## Installation
 

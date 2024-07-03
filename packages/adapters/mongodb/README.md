@@ -1,6 +1,6 @@
 # @mixejs/mongodb
 
-> Mongodb adaptar for Mixe
+> Mongodb adapter for Mixe
 
 ## Installation
 

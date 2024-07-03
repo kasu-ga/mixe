@@ -1,6 +1,6 @@
 # @mixejs/mongoose
 
-> Mongoose adaptar for Mixe
+> Mongoose adapter for Mixe
 
 ## Installation
 

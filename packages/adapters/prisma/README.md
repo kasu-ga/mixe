@@ -1,6 +1,6 @@
 # @mixejs/prisma
 
-> Prisma adaptar for Mixe
+> Prisma adapter for Mixe
 
 ## Installation
 

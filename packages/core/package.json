@@ -4,12 +4,16 @@
   "keywords": [
     "authentication"
   ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kasu-ga/mixe.git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "exports": {
