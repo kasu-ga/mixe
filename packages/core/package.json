@@ -1,5 +1,9 @@
 {
   "name": "mixejs",
+  "description": "Authentication in minutes for the server or client.",
+  "keywords": [
+    "authentication"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
