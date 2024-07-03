@@ -1,0 +1,26 @@
+{
+  "name": "@mixejs/mongodb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasu-ga/mixe.git"
+  },
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "build": "tsup src/index.ts --format cjs,esm --dts --minify terser",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "mixejs": ">=1.0.0",
+    "mongodb": ">=6.0.0"
+  }
+}
